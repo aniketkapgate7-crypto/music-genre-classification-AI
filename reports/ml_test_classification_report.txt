@@ -1,0 +1,20 @@
+Final model: Support Vector Machine
+Development samples: 849
+Test samples: 150
+
+              precision    recall  f1-score   support
+
+       blues     0.8750    0.9333    0.9032        15
+   classical     0.9286    0.8667    0.8966        15
+     country     0.6842    0.8667    0.7647        15
+       disco     0.8889    0.5333    0.6667        15
+      hiphop     0.7333    0.7333    0.7333        15
+        jazz     0.8333    1.0000    0.9091        15
+       metal     0.8667    0.8667    0.8667        15
+         pop     0.7778    0.9333    0.8485        15
+      reggae     0.8571    0.8000    0.8276        15
+        rock     0.8333    0.6667    0.7407        15
+
+    accuracy                         0.8200       150
+   macro avg     0.8278    0.8200    0.8157       150
+weighted avg     0.8278    0.8200    0.8157       150

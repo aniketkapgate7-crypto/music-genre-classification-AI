@@ -179,3 +179,38 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dataset and generated files
+data/raw/*
+data/processed/*
+data/spectrograms/*
+
+# Keep empty folders in GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/spectrograms/.gitkeep
+
+# Trained models
+models/*.joblib
+models/*.pkl
+models/*.keras
+models/*.h5
+
+# Secrets
+.env
+*.env
+
+# VS Code and operating system
+.vscode/
+.DS_Store
+Thumbs.db
