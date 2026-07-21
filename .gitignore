@@ -214,3 +214,5 @@ models/*.h5
 .vscode/
 .DS_Store
 Thumbs.db
+app_backup.py
+app_stable_backup.py
